@@ -1,0 +1,47 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-app: #e8e8e8;
+  --bg-card: #ffffff;
+  --text-primary: #1a1a1a;
+  --text-secondary: #6b7280;
+  --text-muted: #9ca3af;
+  --text-done: #b0b0b0;
+  --border: #e5e7eb;
+  --border-input: #d1d5db;
+  --accent: #0C51FF;
+  --accent-hover: #1d4ed8;
+  --badge-today-bg: #E8F4FF;
+  --badge-today-text: #2F46DB;
+  --badge-tomorrow-bg: #FFF7E3;
+  --badge-tomorrow-text: #D86C01;
+  --badge-future-bg: #E4FFE4;
+  --badge-future-text: #367812;
+  --checkbox-done: #1a1a1a;
+  --shadow-card: 0 2px 16px rgba(0,0,0,0.07);
+  --radius: 16px;
+  --radius-sm: 8px;
+  --radius-badge: 6px;
+}
+
+html, body {
+  height: 100%;
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+input, button {
+  font-family: inherit;
+}
