@@ -32,19 +32,6 @@ src/
     └── TaskItem.module.css
 ```
 
-## Cara Menjalankan
-
-```bash
-# Install dependencies
-npm install
-
-# Jalankan development server
-npm run dev
-
-# Build untuk production
-npm run build
-```
-
 ## Konsep React yang Digunakan
 - **Components & Props**: Setiap bagian UI dipecah ke komponen terpisah
 - **useState**: Menyimpan daftar task, status collapse, form input
